@@ -20,7 +20,7 @@ The initial data is loaded from a CSV file and prepared for analysis:
 import pandas as pd
 
 # Load the data
-temp = pd.read_csv("/content/tempo.csv")
+temp = pd.read_csv("/tempo.csv")
 
 # Change column names
 temp.columns = ["Mēnesis", "Temperatūra"]
